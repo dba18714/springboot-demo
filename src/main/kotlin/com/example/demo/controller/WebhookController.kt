@@ -71,7 +71,7 @@ class WebhookController(
                 Webhook 信息:
                 URL: ${webhookInfo.url}
                 是否有自定义证书: ${webhookInfo.hasCustomCertificate}
-                待处理更新数量: ${webhookInfo.pendingUpdateCount}
+                待处理更新数量: ${webhookInfo.pendingUpdatesCount}
                 最后错误日期: ${webhookInfo.lastErrorDate}
                 最后错误消息: ${webhookInfo.lastErrorMessage ?: "无"}
                 最大连接数: ${webhookInfo.maxConnections}
